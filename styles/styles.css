@@ -249,20 +249,19 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
-    flex-wrap: wrap;
+    padding: 40px;
     min-height: 581px;
     width: 528px;
     background-color: var(--white-color);
 }
 
 .modal-btn{
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8px;
-    margin-right: 8px;
-    margin-left: 490px;
+    top: 8px;
+    right: 8px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -297,8 +296,6 @@ body{
 .modal-form{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 
@@ -358,12 +355,7 @@ body{
     margin-left: 12px;
 }
 
-/* .checkbox{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    position: absolute;
-} */
+
 .checkbox:checked + .checkbox-icon{
     background-image: url(../images/checkbox/icon-check.svg);
 }
@@ -377,7 +369,7 @@ body{
     transition: background-image 250ms var(--transition-cubic);
 }
 
-.checkbox-txt, .checkbox-link{
+.checkbox-txt{
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 8px;
@@ -390,9 +382,9 @@ body{
 }
 
 .submit-btn{
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
     padding-left: 56px;
     padding-right: 55px;
 
@@ -721,7 +713,7 @@ body{
 .footer-btn{
     display: flex;
     align-items: center;
-    padding-right: 13px;
+    padding-right: 28px;
 
 }
 
